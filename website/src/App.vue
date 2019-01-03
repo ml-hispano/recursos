@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
+  <b-container id="app">
+    <img height="150" src="./assets/logo.png">
     <router-view/>
-  </div>
+  </b-container>
 </template>
 
 <script>
