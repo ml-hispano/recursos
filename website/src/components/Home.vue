@@ -11,8 +11,14 @@
       </b-input-group>
     </b-row>
 
-    <b-row>
-      <b-button class="mr-2" :variant="isSelected(type)" :key="type" v-for="type in typeOfResources">{{type}}</b-button>
+    <b-row class="mb-4">
+      <b-button
+        class="mr-2"
+        :variant="isSelected(type)"
+        @click="selectType(type)"
+        :key="type"
+        v-for="type in typeOfResources"
+      >{{type}}</b-button>
     </b-row>
 
     <b-row>
@@ -23,7 +29,7 @@
         img-top
         tag="article"
         style="max-width: 20rem;"
-        class="mb-2"
+        class="mb-2 mr-4"
         :key="card.title"
       >
         <b-button :href="card.href" variant="primary">Ver curso</b-button>
@@ -35,6 +41,8 @@
 <script>
 const _GITHUB_URL = "https://api.github.com";
 const _GITHUB_URL_RAW_CONTENT = "https://raw.githubusercontent.com";
+// TODO: Cambiar esto a master cuando se termine
+const branch = 'develop';
 export default {
   name: "Home",
   data() {
@@ -46,14 +54,24 @@ export default {
       typesSelected: ["Libros"]
     };
   },
+  // TODO: Hay un puto problema con la reactividad del results ...
   computed: {
     results() {
-      if (this.typesSelected.length === 0){
-        return Object.values(this.allData)
-      }else{
+      let selected = {};
 
-        return [];
+      if (this.typesSelected.length === 0) {
+        selected = this.allData;
+      } else {
+        Object.keys(this.allData).forEach(key => {
+          if (this.typesSelected.includes(key)) {
+            selected[key] = this.allData[key];
+          }
+        });
       }
+      const flatten = [].concat.apply([], Object.values(selected));
+      return flatten.filter(resource =>
+        resource.title.toLowerCase().includes(this.searching.toLowerCase())
+      );
     }
   },
   methods: {
@@ -62,9 +80,23 @@ export default {
         ? "secondary"
         : "outline-secondary";
     },
-    extractInfo(rawData){
-
-      return [ { categories : ['Fácil', 'ML'] , title : 'Curso maravilloso', href :"https://google.com" }]
+    extractInfo(rawData) {
+      console.log(rawData);
+      // TODO: Coger este rawData y sacar la info de aquí. Generar el array limpio de objetos
+      return [
+        {
+          categories: ["Fácil", "ML"],
+          title: "Curso maravilloso ",
+          href: "https://google.com"
+        }
+      ];
+    },
+    selectType(type) {
+      if (this.typesSelected.includes(type)) {
+        this.typesSelected = this.typesSelected.filter(t => t != type);
+      } else {
+        this.typesSelected.push(type);
+      }
     },
     extractAllDataFromRepo() {
       this.typeOfResources.forEach((type, idx) => {
@@ -72,33 +104,23 @@ export default {
           this.secondTypeOfResources[idx].forEach(subType => {
             this.axios
               .get(
-                `${_GITHUB_URL_RAW_CONTENT}/ml-hispano/recursos-ml/master/${type}/${subType}.md`
+                `${_GITHUB_URL_RAW_CONTENT}/ml-hispano/recursos-ml/${branch}/${type}/${subType}.md`
               )
-              .then(res => {
-                console.log({ data: res.data });
-
-                // Ahora aquí hay que coger todo ese "raw data" que es una string y sacarla como array
-                const cleanResources = this.extractInfo(res.data);
-                this.allData[subType] = cleanResources;
-              });
+              .then(({ data }) => this.extractInfo(data))
+              .then(cleanResources => (this.allData[type] = cleanResources));
           });
         } else {
           this.axios
             .get(
-              `${_GITHUB_URL_RAW_CONTENT}/ml-hispano/recursos-ml/master/${type}/${type}.md`
+              `${_GITHUB_URL_RAW_CONTENT}/ml-hispano/recursos-ml/${branch}/${type}/${type}.md`
             )
-            .then(res => {
-              console.log({ data: res.data });
-
-              // Ahora aquí hay que coger todo ese "raw data" que es una string y sacarla como array
-              const cleanResources = this.extractInfo(res.data);
-              this.allData[type] = cleanResources;
-            });
+            .then(({ data }) => this.extractInfo(data))
+            .then(cleanResources => (this.allData[type] = cleanResources));
         }
       });
     }
   },
-  created() {
+  beforeMount() {
     this.extractAllDataFromRepo();
   }
 };
