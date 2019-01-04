@@ -32,7 +32,7 @@
         class="mb-2 mr-4"
         :key="card.title"
       >
-        <b-button :href="card.href" variant="primary">Ver curso</b-button>
+        <b-button :href="card.href" variant="primary">Ver más</b-button>
       </b-card>
     </b-row>
   </b-container>
