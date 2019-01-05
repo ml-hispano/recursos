@@ -15,3 +15,5 @@ Overfitting](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)
 Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 - [Colección de papers de CIEMAT](http://wwwae.ciemat.es/~cardenas/docs/lessons/) ![Español](http://www.kreativekorp.com/lib/flags/es.png)
+
+- [Recursos de afshinea](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/es) ![Español](http://www.kreativekorp.com/lib/flags/es.png) Hojas de referencia de Machine Learning (CS 229 Stanford) en español.
