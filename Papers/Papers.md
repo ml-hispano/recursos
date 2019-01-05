@@ -1,4 +1,4 @@
 # Papers
 
-- [Análisis con LSTM](../Analisis_con_LSTM.pdf) - se introduce el uso de Redes Neuronales Recurrentes (RNN) como nuevo enfoque para tratar el problema del análisis y predicción de series temporales usando LSTM
-
+BIGGAN: Large Scale GAN Training for High Fidelity Natural Image Synthesis
+https://arxiv.org/abs/1809.11096
