@@ -14,6 +14,6 @@ Overfitting](http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf)
 - [ImageNet Classification with Deep Convolutional
 Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
-- [Colección de papers de CIEMAT](http://wwwae.ciemat.es/~cardenas/docs/lessons/) ![Español](http://www.kreativekorp.com/lib/flags/es.png)
+- [Lesiones de estadística y técnicas de clasificación](http://wwwae.ciemat.es/~cardenas/docs/lessons/) ![Español](http://www.kreativekorp.com/lib/flags/es.png): Conocimiento general en estadística y técnicas de clasificación en español aplicables a machine learning
 
 - [Recursos de afshinea](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/es) ![Español](http://www.kreativekorp.com/lib/flags/es.png) Hojas de referencia de Machine Learning (CS 229 Stanford) en español.
