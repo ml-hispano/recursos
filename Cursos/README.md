@@ -2,6 +2,7 @@ Listado de cursos propuestos por los miembros de la comunidad **Machine Learning
 
 ## Cursos de CS/ML/DL
 
+* [Curso introductorio impartido por DotCSV](https://github.com/dotcsv/Intro-ML-course) ![Español](http://www.kreativekorp.com/lib/flags/es.png): Curso de "Introducción al aprendizaje automático" que impartió DotCSV en noviembre de 2018. Los ejercicios van desde modelos simples, como la regresión lineal hasta técnicas más avanzadas como las redes neuronales convolucionales.
 * [Open Source Society University](https://github.com/ossu/computer-science) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curriculum universitario completo en Informática gratis sin certificación.
 * [Coursera Machine Learning](https://www.coursera.org/learn/machine-learning) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso introductorio de Machine Leaerning de Coursera impartido por Andrew Ng.
 * [Scrimba Neural Networks in Javascript](https://scrimba.com/g/gneuralnetworks) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Aprende a construir tu Red Neuronal en Javascript con la librerían *Brain.js*.
