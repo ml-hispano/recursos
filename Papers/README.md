@@ -17,3 +17,5 @@ Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-
 - [Lesiones de estadística y técnicas de clasificación](http://wwwae.ciemat.es/~cardenas/docs/lessons/) ![Español](http://www.kreativekorp.com/lib/flags/es.png): Conocimiento general en estadística y técnicas de clasificación en español aplicables a machine learning
 
 - [Recursos de afshinea](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/es) ![Español](http://www.kreativekorp.com/lib/flags/es.png) Hojas de referencia de Machine Learning (CS 229 Stanford) en español.
+
+- [Cheatsheet de Machine Learning muy completo](https://ml-cheatsheet.readthedocs.io/en/latest/index.html) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) Genial para esos momentos en los que vas leyendo un paper y no recuerdas que significaba ese acrónimo tan raro.
