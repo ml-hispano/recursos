@@ -13,7 +13,7 @@ labels: recurso
 
 <!-- Para rellenar este template, reemplaza los campos __TÍTULO__, __LINK__ y __DESCRIPCIÓN__ con tu contenido. Cada recurso consta de un título, enlace y breve descripción sobre lo que se puede encontrar en el enlace.
 Además reemplaza __TIPO__ con el apartado que consideras debería estar tu recurso.
-Elige entre: Cursos, Libros, Papers, Proyectos/Tensorflow o Videos.
+Elige entre: Cursos, Libros, Papers, Artículo/Blog, Proyectos/Tensorflow o Videos.
 -->
 
 Hola,
