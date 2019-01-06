@@ -1,7 +1,8 @@
-### **Recursos ML Hispano**
+# Recursos ML Hispano
 
 [![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ml-hispano/recursos-ml)[![HitCount](http://hits.dwyl.io/ml-hispano/recursos-ml.svg)](http://hits.dwyl.io/ml-hispano/recursos-ml)
 
+Listado de recursos compartidos por la comunidad **Machine Learning Hispano**. Si tu también quieres formar parte de esta comunidad, puedes unirte a través de este link : https://bit.ly/2CI89ne.
 
 ### Contribución
 
