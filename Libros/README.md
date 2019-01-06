@@ -2,3 +2,4 @@ Listado de libros propuestos por los miembros de la comunidad **Machine Learning
 
 # Libros
 
+* [Dive into Deep Learning](http://d2l.ai/) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Libro interactivo sobre deep learning.
