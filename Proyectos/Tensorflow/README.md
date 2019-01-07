@@ -18,4 +18,5 @@
 * [U-Net](https://github.com/zsdonghao/u-net-brain-tumor) - Segmentación de tumores cerebrales. 
 * [Leer los labios - Cross Audio-Visual Recognition using 3D Architectures in TensorFlow](https://github.com/astorfi/lip-reading-deeplearning) - Implementación de Tensorflow de  ["Cross Audio-Visual Recognition in the Wild Using Deep Learning"](https://arxiv.org/abs/1706.05739) by Torfi et al.
 * [Tensorflow FastText](https://github.com/apcode/tensorflow_fasttext) - Classificador de texto Inspirado en fastText de Facebook 
-* [MusicGenreClassification](https://github.com/mlachmish/MusicGenreClassification) - Classificador de géneros de música usando 10 segundos de sonido usando una red neuronal. 
+* [MusicGenreClassification](https://github.com/mlachmish/MusicGenreClassification) - Classificador de géneros de música usando 10 segundos de sonido usando una red neuronal.
+* [Faceswap](https://github.com/ianholing/simplest_faceswap_deepfakes_tensorflow/blob/master/simple_deepfakes_faceswap.ipynb) - Implementación sencilla de faceswap
