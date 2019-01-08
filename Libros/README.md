@@ -7,3 +7,5 @@ Listado de libros propuestos por los miembros de la comunidad **Machine Learning
 
 * [Libros y recursos de Data Science](https://github.com/bulutyazilim/awesome-datascience) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png)
 : Libros y recursos de Data Science. 
+
+* [Introducción a la minería de datos](https://github.com/mariosky/databook) ![Español](http://www.kreativekorp.com/lib/flags/es.png): Libro de Introducción a la minería de datos.
