@@ -9,3 +9,5 @@ Listado de libros propuestos por los miembros de la comunidad **Machine Learning
 : Libros y recursos de Data Science. 
 
 * [Introducción a la minería de datos](https://github.com/mariosky/databook) ![Español](http://www.kreativekorp.com/lib/flags/es.png): Libro de Introducción a la minería de datos.
+
+* [Algebra, Topology, Differential Calculus, and Optimization](https://www.cis.upenn.edu/~jean/math-basics.pdf)  ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png): Libro que trata sobre álgebra lineal, topología, cálculo multivariable y optimización.
