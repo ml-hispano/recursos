@@ -16,3 +16,5 @@ Listado de cursos propuestos por los miembros de la comunidad **Machine Learning
 * [CalTech Learning from data](http://work.caltech.edu/telecourse.html) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso de Machine Learning de la Universidad de California.
 * [Data Science with Python](https://www.edx.org/es/professional-certificate/data-science-with-python) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso de Data Science impartido por IBM.
 * [Elements of AI](https://course.elementsofai.com/) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso introductorio de Machine Learning de la Universidad de Helsinki.
+* [Iniciacición a IA](http://ai.berkeley.edu/project_overview.html) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso de inicio en IA basado en el videojuego Pacman con proyectos para aprender y programar en Python.
+
