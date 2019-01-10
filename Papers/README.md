@@ -19,3 +19,5 @@ Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-
 - [Recursos de afshinea](https://github.com/afshinea/stanford-cs-229-machine-learning/tree/master/es) ![Español](http://www.kreativekorp.com/lib/flags/es.png) Hojas de referencia de Machine Learning (CS 229 Stanford) en español.
 
 - [Cheatsheet de Machine Learning muy completo](https://ml-cheatsheet.readthedocs.io/en/latest/index.html) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) Genial para esos momentos en los que vas leyendo un paper y no recuerdas que significaba ese acrónimo tan raro.
+
+- [Most Cited Deep Learning Papers 2017](https://github.com/terryum/awesome-deep-learning-papers) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) This list is not being maintained anymore because of the overwhelming amount of deep learning papers published every day since 2017.
