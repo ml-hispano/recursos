@@ -18,3 +18,4 @@ Listado de cursos propuestos por los miembros de la comunidad **Machine Learning
 * [Elements of AI](https://course.elementsofai.com/) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso introductorio de Machine Learning de la Universidad de Helsinki.
 * [Iniciación a IA](http://ai.berkeley.edu/project_overview.html) ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso de inicio en IA basado en el videojuego Pacman con proyectos para aprender y programar en Python.
 * [Viendo la teoría](https://seeing-theory.brown.edu/es.html)  ![Español](http://www.kreativekorp.com/lib/flags/es.png): Una introducción visual a probabilidad y estadística.
+* [Curso de estadística computacional](http://people.duke.edu/~ccc14/sta-663-2018/)  ![Inglés](http://www.kreativekorp.com/lib/flags/gb.png) : Curso de estadística computacional online. 
