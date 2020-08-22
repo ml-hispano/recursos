@@ -7,3 +7,5 @@ Listado de artículos propuestos por los miembros de la comunidad **Machine Lear
 * [Introducción al árbol de decisión en python](http://www.aprendemachinelearning.com/arbol-de-decision-en-python-clasificacion-y-prediccion/): Descripción con ejemplo sobre como funciona el árbol de decisión en python.
 
 * [Fases del proceso de Machine Learning](https://iartificial.net/fases-del-proceso-de-machine-learning/) ![Español](http://www.kreativekorp.com/lib/flags/es.png) : Para obtener buenos resultados en Machine Learning, debemos seguir este proceso.
+
+* [Blogs de Inteligencia Artificial y Machine Learning](https://iartificial.net/blogs-de-inteligencia-artificial-y-machine-learning/) ![Español](http://www.kreativekorp.com/lib/flags/es.png) : Una lista de los blogs de Inteligencia Artificial, Machine Learning y Análisis de Datos.
